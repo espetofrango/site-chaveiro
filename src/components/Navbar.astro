@@ -1,0 +1,57 @@
+---
+---
+<nav class="navbar">
+  <div class="container nav-container">
+    <a href="/" class="logo-link">
+      <img src="/logo.png" alt="Chaveiro Anchieta Logo" class="nav-logo" />
+    </a>
+    <div class="nav-text">
+      <span class="yellow-text">CHAVEIRO 24 HORAS</span>
+    </div>
+  </div>
+</nav>
+
+<style>
+  .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 1000;
+    background: transparent;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-logo {
+    height: 60px;
+    width: auto;
+    filter: drop-shadow(0 0 8px rgba(0,0,0,0.5));
+  }
+
+  .nav-text {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: clamp(14px, 4vw, 20px);
+    letter-spacing: 1px;
+  }
+
+  .yellow-text {
+    color: var(--color-primary);
+    text-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+  }
+
+  @media (max-width: 768px) {
+    .nav-logo {
+      height: 45px;
+    }
+    .nav-text {
+      font-size: 14px;
+    }
+  }
+</style>

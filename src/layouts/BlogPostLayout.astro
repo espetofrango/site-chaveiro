@@ -1,11 +1,13 @@
 ---
 import Layout from './Layout.astro';
+import Navbar from '../components/Navbar.astro';
 const { title, description, publishDate } = Astro.props;
 ---
 
 <Layout title={title} description={description}>
+  <Navbar />
   <article class="blog-post">
-    <header class="post-header">
+    <header class="post-title-section">
       <div class="container">
         <a href="/blog" class="back-link">← Voltar para o Blog</a>
         <span class="date">{publishDate}</span>
@@ -49,12 +51,12 @@ const { title, description, publishDate } = Astro.props;
 
 <style>
   .blog-post {
-    padding-top: 120px;
+    padding-top: 100px; /* Espaço para a Navbar */
+    background: var(--color-bg);
   }
 
-  .post-header {
-    background: linear-gradient(to bottom, var(--color-secondary), var(--color-bg));
-    padding: 80px 0;
+  .post-title-section {
+    padding: 60px 0 20px;
     text-align: center;
   }
 

@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
 
 const posts = [
   {
@@ -20,6 +21,7 @@ const posts = [
 ---
 
 <Layout title="Blog - Chaveiro Anchieta RJ | Dicas de Segurança e Serviços">
+  <Navbar />
   <main class="blog-index">
     <header class="blog-header">
       <div class="container">
@@ -50,11 +52,11 @@ const posts = [
 <style>
   .blog-index {
     padding-top: 100px;
+    background: var(--color-bg);
   }
 
   .blog-header {
-    background: linear-gradient(to bottom, var(--color-secondary), var(--color-bg));
-    padding: 100px 0 60px;
+    padding: 60px 0 40px;
     text-align: center;
   }
 

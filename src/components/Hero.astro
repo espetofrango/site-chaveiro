@@ -1,0 +1,259 @@
+---
+---
+
+<section class="hero">
+  <div class="mesh-gradient"></div>
+  <div class="noise"></div>
+  
+  <div class="container hero-content">
+    <div class="badge-container">
+      <span class="badge">✦ Chaveiro 24h · Emergência</span>
+    </div>
+    
+    <h1>chaveiro 24 horas em anchieta rj.</h1>
+    
+    <p class="subtitle">
+      Especialista em aberturas técnicas e segurança. Atendimento ultra-rápido para residências, comércios e veículos em Anchieta e toda a Zona Norte.
+    </p>
+    
+    <div class="cta-group">
+      <a href="tel:21970780881" class="btn btn-primary">Ligar agora →</a>
+      <a href="#servicos" class="btn btn-secondary">Ver serviços</a>
+    </div>
+    
+    <div class="social-proof">
+      <div class="avatars">
+        <div class="avatar" style="background: var(--color-primary)"></div>
+        <div class="avatar" style="background: var(--color-secondary)"></div>
+        <div class="avatar" style="background: var(--color-accent)"></div>
+      </div>
+      <span>Mais de 2.400 atendimentos realizados na região</span>
+    </div>
+  </div>
+
+  <div class="floating-card">
+    <span class="card-icon">⚡</span>
+    <div class="card-text">
+      <strong>+15 min</strong>
+      <span>Tempo médio de chegada</span>
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero {
+    position: relative;
+    height: 100vh;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-top: 80px;
+  }
+
+  .mesh-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(at 0% 0%, var(--color-secondary) 0, transparent 50%),
+                radial-gradient(at 50% 0%, var(--color-accent) 0, transparent 50%),
+                radial-gradient(at 100% 0%, var(--color-primary) 0, transparent 50%),
+                radial-gradient(at 0% 100%, var(--color-primary) 0, transparent 50%),
+                radial-gradient(at 50% 100%, var(--color-accent) 0, transparent 50%),
+                radial-gradient(at 100% 100%, var(--color-secondary) 0, transparent 50%);
+    background-size: 200% 200%;
+    animation: gradientShift 15s ease infinite alternate;
+    z-index: -2;
+    opacity: 0.6;
+  }
+
+  .noise {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3%3Ffilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    opacity: 0.05;
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  .hero-content {
+    text-align: center;
+    max-width: 900px;
+    z-index: 1;
+  }
+
+  .badge-container {
+    margin-bottom: 24px;
+    opacity: 0;
+    animation: fadeUp 0.8s forwards 0.1s;
+  }
+
+  .badge {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--color-primary);
+    padding: 8px 16px;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--color-primary);
+    backdrop-filter: blur(4px);
+  }
+
+  h1 {
+    font-size: clamp(48px, 10vw, 96px);
+    margin-bottom: 24px;
+    text-transform: lowercase;
+    opacity: 0;
+    animation: fadeUp 0.8s forwards 0.2s;
+  }
+
+  .subtitle {
+    font-size: clamp(18px, 3vw, 20px);
+    color: var(--color-text-muted);
+    margin-bottom: 40px;
+    max-width: 650px;
+    margin-inline: auto;
+    opacity: 0;
+    animation: fadeUp 0.8s forwards 0.3s;
+  }
+
+  .cta-group {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 60px;
+    opacity: 0;
+    animation: fadeUp 0.8s forwards 0.4s;
+  }
+
+  .btn {
+    padding: 16px 32px;
+    border-radius: var(--radius-sm);
+    font-weight: 700;
+    font-size: 16px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .btn-primary {
+    background: #7C3AED; /* Cor roxa original do prompt, mas vou usar a primária para manter a paleta */
+    background: var(--color-primary);
+    color: var(--color-bg);
+    box-shadow: 0 4px 20px rgba(255, 215, 0, 0.3);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(255, 215, 0, 0.5);
+  }
+
+  .btn-secondary {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: var(--color-text);
+    backdrop-filter: blur(10px);
+  }
+
+  .btn-secondary:hover {
+    border-color: var(--color-text);
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  .social-proof {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    opacity: 0;
+    animation: fadeUp 0.8s forwards 0.5s;
+  }
+
+  .avatars {
+    display: flex;
+    margin-right: 10px;
+  }
+
+  .avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid var(--color-bg);
+    margin-right: -10px;
+  }
+
+  .social-proof span {
+    font-size: 14px;
+    color: var(--color-text-muted);
+  }
+
+  .floating-card {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--color-border);
+    padding: 16px 24px;
+    border-radius: var(--radius);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    box-shadow: var(--shadow-glow);
+    animation: float 6s ease-in-out infinite, fadeUp 0.8s forwards 0.6s;
+    opacity: 0;
+  }
+
+  .card-icon {
+    font-size: 24px;
+  }
+
+  .card-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-text strong {
+    font-size: 20px;
+    color: var(--color-primary);
+  }
+
+  .card-text span {
+    font-size: 12px;
+    color: var(--color-text-muted);
+  }
+
+  @keyframes gradientShift {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 100% 100%; }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+
+  @media (max-width: 768px) {
+    .hero {
+      height: auto;
+      padding: 120px 0 80px;
+    }
+    
+    .cta-group {
+      flex-direction: column;
+      width: 100%;
+      max-width: 300px;
+      margin-inline: auto;
+    }
+
+    .floating-card {
+      display: none;
+    }
+  }
+</style>

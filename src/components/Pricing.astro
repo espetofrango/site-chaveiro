@@ -1,0 +1,300 @@
+---
+---
+
+<section id="precos" class="pricing section-padding">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow">Tabela de Serviços</span>
+      <h2>Preços justos e transparentes.</h2>
+      
+      <div class="toggle-container">
+        <span class="toggle-label active" id="label-individual">Serviços Simples</span>
+        <button class="toggle-btn" id="price-toggle" aria-label="Alternar tipos de serviço">
+          <div class="toggle-circle"></div>
+        </button>
+        <span class="toggle-label" id="label-business">Emergência 24h</span>
+      </div>
+    </div>
+
+    <div class="pricing-grid">
+      <!-- Básico -->
+      <div class="price-card reveal">
+        <div class="card-header">
+          <h3>Básico</h3>
+          <p>Serviços comuns agendados</p>
+          <div class="price">
+            <span class="currency">R$</span>
+            <span class="amount" data-individual="45" data-business="80">45</span>
+            <span class="period">/unid</span>
+          </div>
+        </div>
+        <ul class="features-list">
+          <li><span class="check">✓</span> Cópias de chaves comuns</li>
+          <li><span class="check">✓</span> Troca de segredo simples</li>
+          <li><span class="check">✓</span> Lubrificação de travas</li>
+          <li class="disabled"><span class="cross">×</span> Atendimento emergencial</li>
+          <li class="disabled"><span class="cross">×</span> Chaves codificadas</li>
+        </ul>
+        <a href="https://wa.me/5521970780881" class="btn btn-outline">Solicitar Agora</a>
+      </div>
+
+      <!-- Pro -->
+      <div class="price-card featured reveal">
+        <div class="popular-badge">Mais Procurado ⭐</div>
+        <div class="card-header">
+          <h3>Socorro VIP</h3>
+          <p>Emergência e Alta Tecnologia</p>
+          <div class="price">
+            <span class="currency">R$</span>
+            <span class="amount" data-individual="120" data-business="180">120</span>
+            <span class="period">/atend</span>
+          </div>
+        </div>
+        <ul class="features-list">
+          <li><span class="check">✓</span> Aberturas técnicas 24h</li>
+          <li><span class="check">✓</span> Chaves codificadas</li>
+          <li><span class="check">✓</span> Socorro rápido no local</li>
+          <li><span class="check">✓</span> Garantia de 6 meses</li>
+          <li><span class="check">✓</span> Suporte prioritário</li>
+        </ul>
+        <a href="tel:21970780881" class="btn btn-primary">Ligar Agora</a>
+      </div>
+
+      <!-- Enterprise -->
+      <div class="price-card reveal">
+        <div class="card-header">
+          <h3>Empresarial</h3>
+          <p>Para condomínios e lojas</p>
+          <div class="price">
+            <span class="currency">Sob</span>
+            <span class="amount">Consulta</span>
+          </div>
+        </div>
+        <ul class="features-list">
+          <li><span class="check">✓</span> Sistemas Master Key</li>
+          <li><span class="check">✓</span> Manutenção preventiva</li>
+          <li><span class="check">✓</span> Instalação de molas</li>
+          <li><span class="check">✓</span> Fechaduras digitais</li>
+          <li><span class="check">✓</span> Atendimento 24/7 dedicado</li>
+        </ul>
+        <a href="https://wa.me/5521970780881" class="btn btn-outline">Falar com Consultor</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .pricing {
+    background: #050508;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 32px;
+  }
+
+  .toggle-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    transition: color 0.3s ease;
+  }
+
+  .toggle-label.active {
+    color: var(--color-primary);
+  }
+
+  .toggle-btn {
+    width: 50px;
+    height: 26px;
+    background: var(--color-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: 100px;
+    cursor: pointer;
+    position: relative;
+    padding: 3px;
+    transition: all 0.3s ease;
+  }
+
+  .toggle-circle {
+    width: 18px;
+    height: 18px;
+    background: var(--color-primary);
+    border-radius: 50%;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .toggle-btn.active .toggle-circle {
+    transform: translateX(24px);
+  }
+
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    align-items: stretch;
+  }
+
+  .price-card {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    padding: 40px;
+    border-radius: var(--radius);
+    display: flex;
+    flex-direction: column;
+    transition: all 0.4s ease;
+    position: relative;
+  }
+
+  .price-card.featured {
+    background: var(--color-secondary);
+    border-color: var(--color-primary);
+    transform: scale(1.05);
+    z-index: 1;
+  }
+
+  .popular-badge {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--color-primary);
+    color: var(--color-bg);
+    padding: 4px 16px;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  .card-header h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+
+  .card-header p {
+    color: var(--color-text-muted);
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+
+  .price {
+    margin-bottom: 32px;
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+  }
+
+  .currency {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .amount {
+    font-size: 48px;
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--color-primary);
+  }
+
+  .period {
+    color: var(--color-text-muted);
+    font-size: 14px;
+  }
+
+  .features-list {
+    margin-bottom: 40px;
+    flex-grow: 1;
+  }
+
+  .features-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 15px;
+  }
+
+  .check {
+    color: #22c55e;
+    font-weight: 800;
+  }
+
+  .cross {
+    color: #ef4444;
+    font-weight: 800;
+  }
+
+  .disabled {
+    color: var(--color-text-muted);
+    opacity: 0.5;
+  }
+
+  .btn {
+    text-align: center;
+    padding: 14px;
+    border-radius: var(--radius-sm);
+    font-weight: 700;
+    transition: all 0.3s ease;
+  }
+
+  .btn-outline {
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+  }
+
+  .btn-outline:hover {
+    background: var(--color-primary);
+    color: var(--color-bg);
+  }
+
+  .price-card.featured .btn-primary {
+    background: var(--color-primary);
+    color: var(--color-bg);
+  }
+
+  @media (max-width: 1024px) {
+    .price-card.featured {
+      transform: scale(1);
+    }
+    .pricing-grid {
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+  }
+</style>
+
+<script>
+  const toggle = document.getElementById('price-toggle');
+  const amounts = document.querySelectorAll('.amount[data-individual]');
+  const labelIndividual = document.getElementById('label-individual');
+  const labelBusiness = document.getElementById('label-business');
+
+  toggle?.addEventListener('click', () => {
+    toggle.classList.toggle('active');
+    const isBusiness = toggle.classList.contains('active');
+    
+    labelIndividual?.classList.toggle('active');
+    labelBusiness?.classList.toggle('active');
+
+    amounts.forEach(amount => {
+      const el = amount as HTMLElement;
+      const target = isBusiness ? el.dataset.business : el.dataset.individual;
+      
+      // Animação simples de troca
+      el.style.opacity = '0';
+      setTimeout(() => {
+        el.textContent = target || '';
+        el.style.opacity = '1';
+      }, 150);
+    });
+  });
+</script>

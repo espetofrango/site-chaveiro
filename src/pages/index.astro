@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import Features from '../components/Features.astro';
+import HowItWorks from '../components/HowItWorks.astro';
+import Testimonials from '../components/Testimonials.astro';
+import Pricing from '../components/Pricing.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout 
+	title="Chaveiro Anchieta RJ — Sua segurança em boas mãos 24h"
+	description="Especialista em soluções de segurança e aberturas de emergência no bairro de Anchieta e arredores. Atendimento ultra-rápido residencial, comercial e automotivo."
+>
+	<main>
+		<Hero />
+		<Features />
+		<HowItWorks />
+		<Testimonials />
+		<Pricing />
+		<Footer />
+	</main>
+</Layout>
+
+<style>
+	main {
+		width: 100%;
+		overflow: hidden;
+	}
+</style>

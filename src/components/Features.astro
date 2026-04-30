@@ -1,0 +1,174 @@
+---
+const features = [
+  {
+    title: "Abertura Residencial",
+    description: "Socorro imediato para portas batidas ou chaves perdidas. Abertura técnica sem danos à porta ou fechadura.",
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>`
+  },
+  {
+    title: "Chaves Codificadas",
+    description: "Cópia e programação de chaves automotivas com chip e telecomando para diversas marcas e modelos.",
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="6" width="18" height="12" rx="2"></rect><circle cx="7" cy="12" r="3"></circle><line x1="15" y1="9" x2="15" y2="15"></line><line x1="18" y1="12" x2="22" y2="12"></line></svg>`
+  },
+  {
+    title: "Segurança Comercial",
+    description: "Instalação de travas, molas de piso e sistemas de segurança para lojas e empresas em Anchieta.",
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>`
+  },
+  {
+    title: "Troca de Segredo",
+    description: "Aumente sua segurança trocando o segredo das chaves após mudanças ou perda de exemplares.",
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3L15.5 7.5z"></path></svg>`
+  },
+  {
+    title: "Fechaduras Digitais",
+    description: "Venda e instalação de fechaduras eletrônicas com senha, biometria ou tag para maior praticidade.",
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>`
+  },
+  {
+    title: "Atendimento 24h",
+    description: "Equipe de prontidão dia e noite, inclusive domingos e feriados, para qualquer emergência.",
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>`
+  }
+];
+---
+
+<section id="servicos" class="features section-padding">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow">Nossos Serviços</span>
+      <h2>Soluções completas em segurança.</h2>
+      <p>Atendemos todas as suas necessidades com tecnologia e agilidade.</p>
+    </div>
+    
+    <div class="features-grid">
+      {features.map((feature, index) => (
+        <div class="feature-card reveal" style={`transition-delay: ${index * 0.1}s`}>
+          <div class="icon-wrapper" set:html={feature.icon} />
+          <h3>{feature.title}</h3>
+          <p>{feature.description}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .features {
+    background: linear-gradient(to bottom, var(--color-bg), #0a0a0f);
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .eyebrow {
+    color: var(--color-primary);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  h2 {
+    font-size: clamp(32px, 5vw, 48px);
+    margin-bottom: 16px;
+  }
+
+  .section-header p {
+    color: var(--color-text-muted);
+    font-size: 18px;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .feature-card {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    padding: 40px;
+    border-radius: var(--radius);
+    backdrop-filter: blur(8px);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .feature-card:hover {
+    transform: translateY(-8px);
+    border-color: var(--color-primary);
+    box-shadow: 0 10px 30px rgba(255, 215, 0, 0.1);
+    background: rgba(255, 215, 0, 0.02);
+  }
+
+  .icon-wrapper {
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 215, 0, 0.1);
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    transition: all 0.3s ease;
+  }
+
+  .feature-card:hover .icon-wrapper {
+    background: var(--color-primary);
+    color: var(--color-bg);
+    transform: scale(1.1) rotate(5deg);
+  }
+
+  .icon-wrapper :global(svg) {
+    width: 32px;
+    height: 32px;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  p {
+    color: var(--color-text-muted);
+    line-height: 1.6;
+    font-size: 15px;
+  }
+
+  @media (max-width: 1024px) {
+    .features-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .features-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .feature-card {
+      padding: 32px;
+    }
+  }
+</style>
+
+<script>
+  const observerOptions = {
+    threshold: 0.1
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, observerOptions);
+
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>

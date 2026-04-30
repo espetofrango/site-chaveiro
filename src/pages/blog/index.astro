@@ -1,23 +1,11 @@
 ---
+import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import Navbar from '../../components/Navbar.astro';
 
-const posts = [
-  {
-    title: "Chaveiro 24h em Anchieta RJ: Socorro Imediato e Segurança",
-    description: "Ficou trancado para fora? Precisa trocar fechaduras em Anchieta? Saiba como nosso serviço 24h funciona e por que somos a melhor escolha na região.",
-    url: "/blog/chaveiro-24h-em-anchieta-rj",
-    date: "29 de Abril de 2026",
-    category: "Residencial"
-  },
-  {
-    title: "Chaveiro Automotivo em Anchieta: Chaves Codificadas e Ignição",
-    description: "Problemas com a chave do carro na Estrada do Engenho Novo? Atendemos emergências automotivas com tecnologia de ponta em Anchieta.",
-    url: "/blog/chaveiro-automotivo-anchieta",
-    date: "28 de Abril de 2026",
-    category: "Automotivo"
-  }
-];
+const posts = (await getCollection('blog')).sort(
+  (a, b) => new Date(b.data.publishDate).valueOf() - new Date(a.data.publishDate).valueOf()
+);
 ---
 
 <Layout title="Blog - Chaveiro Anchieta RJ | Dicas de Segurança e Serviços">
@@ -35,11 +23,11 @@ const posts = [
       <div class="container">
         <div class="posts-grid">
           {posts.map(post => (
-            <a href={post.url} class="post-card reveal">
-              <span class="category">{post.category}</span>
-              <span class="date">{post.date}</span>
-              <h2>{post.title}</h2>
-              <p>{post.description}</p>
+            <a href={`/blog/${post.slug}`} class="post-card reveal">
+              <span class="category">{post.data.category}</span>
+              <span class="date">{post.data.publishDate}</span>
+              <h2>{post.data.title}</h2>
+              <p>{post.data.description}</p>
               <span class="read-more">Ler artigo completo →</span>
             </a>
           ))}

@@ -1,0 +1,137 @@
+---
+---
+
+<section id="localizacao" class="location section-padding">
+  <div class="container">
+    <div class="location-grid">
+      <div class="location-info reveal">
+        <span class="eyebrow">Onde Estamos</span>
+        <h2>Atendimento local em Anchieta.</h2>
+        <p class="address-text">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          Rua Cipriano Barata, 11 - Parque Anchieta, Rio de Janeiro - RJ
+        </p>
+        <p class="service-area">
+          <strong>Área de Atendimento:</strong><br>
+          Anchieta, Parque Anchieta, Ricardo de Albuquerque, Guadalupe, Pavuna e adjacências.
+        </p>
+        <div class="location-badges">
+          <div class="badge">Atendimento 24h</div>
+          <div class="badge">Chegada em 15min</div>
+        </div>
+      </div>
+      
+      <div class="map-container reveal">
+        <iframe 
+          src="https://maps.google.com/maps?q=Rua%20Cipriano%20Barata%2011%20Parque%20Anchieta%20RJ&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+          width="100%" 
+          height="450" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .location {
+    background: #0a0a0f;
+  }
+
+  .location-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .eyebrow {
+    color: var(--color-primary);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  h2 {
+    font-size: clamp(32px, 5vw, 48px);
+    margin-bottom: 24px;
+  }
+
+  .address-text {
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--color-text);
+    margin-bottom: 32px;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .address-text svg {
+    color: var(--color-primary);
+    flex-shrink: 0;
+    margin-top: 4px;
+  }
+
+  .service-area {
+    font-size: 16px;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+    margin-bottom: 40px;
+    padding-left: 36px;
+    border-left: 2px solid var(--color-primary);
+  }
+
+  .location-badges {
+    display: flex;
+    gap: 12px;
+    padding-left: 36px;
+  }
+
+  .badge {
+    background: rgba(255, 215, 0, 0.1);
+    color: var(--color-primary);
+    padding: 8px 16px;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .map-container {
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  }
+
+  @media (max-width: 1024px) {
+    .location-grid {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+    
+    .location-info {
+      text-align: center;
+    }
+
+    .address-text {
+      justify-content: center;
+    }
+
+    .service-area {
+      border-left: none;
+      padding-left: 0;
+    }
+
+    .location-badges {
+      justify-content: center;
+      padding-left: 0;
+    }
+  }
+</style>

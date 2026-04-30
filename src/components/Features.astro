@@ -29,6 +29,11 @@ const features = [
     title: "Atendimento 24h",
     description: "Equipe de prontidão dia e noite, inclusive domingos e feriados, para qualquer emergência.",
     icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>`
+  },
+  {
+    title: "Afiação e Cutelaria",
+    description: "Serviço profissional de afiação de alicates, tesouras e facas com precisão e cuidado técnico.",
+    icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.77 3.77z"></path></svg>`
   }
 ];
 ---
@@ -85,7 +90,7 @@ const features = [
 
   .features-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 24px;
   }
 

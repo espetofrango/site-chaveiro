@@ -23,11 +23,76 @@ const { title, description = "Chaveiro Anchieta RJ - Sua segurança em boas mão
     
     <title>{title}</title>
     
+    <!-- SEO Tags -->
+    <link rel="canonical" href="https://www.chaveiroanchieta.com.br/" />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="chaveiro 24h anchieta, chaveiro automotivo anchieta, chaveiro residencial anchieta, abertura de portas rj, chaves codificadas anchieta, segurança residencial rj, afiação de tesouras anchieta, amolar facas rj, cutelaria profissional" />
+    
     <!-- Open Graph / SEO -->
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.chaveiroanchieta.com.br/" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Chaveiro Anchieta RJ" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content="/og-image.jpg" />
+
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="BR-RJ" />
+    <meta name="geo.placename" content="Rio de Janeiro" />
+    <meta name="geo.position" content="-22.8234;-43.3921" />
+    <meta name="ICBM" content="-22.8234, -43.3921" />
+
+    <!-- Schema.org LocalBusiness -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Chaveiro Anchieta RJ",
+        "image": "https://www.chaveiroanchieta.com.br/logo.png",
+        "@id": "https://www.chaveiroanchieta.com.br",
+        "url": "https://www.chaveiroanchieta.com.br",
+        "telephone": "+5521970780881",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rua Cipriano Barata, 11",
+          "addressLocality": "Parque Anchieta",
+          "addressRegion": "RJ",
+          "postalCode": "21645-510",
+          "addressCountry": "BR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -22.8234,
+          "longitude": -43.3921
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        },
+        "sameAs": [
+          "https://www.instagram.com/chaveiroanchieta",
+          "https://www.facebook.com/chaveiroanchieta"
+        ]
+      }
+    </script>
   </head>
   <body>
     <slot />

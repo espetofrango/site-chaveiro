@@ -1,0 +1,182 @@
+---
+import Layout from './Layout.astro';
+const { title, description, publishDate } = Astro.props;
+---
+
+<Layout title={title} description={description}>
+  <article class="blog-post">
+    <header class="post-header">
+      <div class="container">
+        <a href="/blog" class="back-link">← Voltar para o Blog</a>
+        <span class="date">{publishDate}</span>
+        <h1>{title}</h1>
+      </div>
+    </header>
+
+    <section class="post-content">
+      <div class="container content-grid">
+        <div class="main-text">
+          <slot />
+        </div>
+        
+        <aside class="post-sidebar">
+          <div class="sidebar-box contact-box">
+            <h3>Precisa de ajuda agora?</h3>
+            <p>Atendimento 24h em Anchieta e região.</p>
+            <a href="tel:21970780881" class="btn-tel">📞 (21) 97078-0881</a>
+            <a href="https://wa.me/5521970780881" class="btn-wa">WhatsApp</a>
+          </div>
+
+          <div class="sidebar-box map-box">
+            <h3>Nossa Localização</h3>
+            <div class="mini-map">
+              <iframe 
+                src="https://maps.google.com/maps?q=Rua%20Cipriano%20Barata%2011%20Parque%20Anchieta%20RJ&t=&z=14&ie=UTF8&iwloc=&output=embed" 
+                width="100%" 
+                height="250" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+              </iframe>
+            </div>
+            <p>Rua Cipriano Barata, 11 - Parque Anchieta - RJ</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </article>
+</Layout>
+
+<style>
+  .blog-post {
+    padding-top: 120px;
+  }
+
+  .post-header {
+    background: linear-gradient(to bottom, var(--color-secondary), var(--color-bg));
+    padding: 80px 0;
+    text-align: center;
+  }
+
+  .back-link {
+    color: var(--color-primary);
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+
+  .date {
+    display: block;
+    color: var(--color-text-muted);
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .post-header h1 {
+    font-size: clamp(32px, 5vw, 56px);
+    max-width: 900px;
+    margin: 0 auto;
+    color: #fff;
+  }
+
+  .post-content {
+    padding: 80px 0;
+    background: var(--color-bg);
+  }
+
+  .content-grid {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    gap: 60px;
+  }
+
+  .main-text {
+    line-height: 1.8;
+    color: rgba(255,255,255,0.9);
+    font-size: 18px;
+  }
+
+  .main-text :global(h2) {
+    font-size: 32px;
+    margin: 48px 0 24px;
+    color: var(--color-primary);
+  }
+
+  .main-text :global(h3) {
+    font-size: 24px;
+    margin: 32px 0 16px;
+    color: #fff;
+  }
+
+  .main-text :global(p) {
+    margin-bottom: 24px;
+  }
+
+  .main-text :global(ul) {
+    margin-bottom: 32px;
+    padding-left: 20px;
+    list-style: disc;
+  }
+
+  .main-text :global(li) {
+    margin-bottom: 12px;
+  }
+
+  .post-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .sidebar-box {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    padding: 30px;
+    border-radius: var(--radius);
+    backdrop-filter: blur(10px);
+  }
+
+  .sidebar-box h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .contact-box {
+    text-align: center;
+    border-color: var(--color-primary);
+  }
+
+  .btn-tel, .btn-wa {
+    display: block;
+    padding: 14px;
+    border-radius: var(--radius-sm);
+    margin-top: 12px;
+    font-weight: 700;
+  }
+
+  .btn-tel {
+    background: var(--color-primary);
+    color: var(--color-bg);
+  }
+
+  .btn-wa {
+    background: #25d366;
+    color: #fff;
+  }
+
+  .mini-map {
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    margin-bottom: 16px;
+  }
+
+  @media (max-width: 1024px) {
+    .content-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .post-sidebar {
+      order: -1;
+    }
+  }
+</style>

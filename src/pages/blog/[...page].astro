@@ -3,9 +3,16 @@ import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
 import Navbar from '../../components/Navbar.astro';
 
-const posts = (await getCollection('blog')).sort(
-  (a, b) => new Date(b.data.publishDate).valueOf() - new Date(a.data.publishDate).valueOf()
-);
+export async function getStaticPaths({ paginate }) {
+  const posts = (await getCollection('blog')).sort(
+    (a, b) => new Date(b.data.publishDate).valueOf() - new Date(a.data.publishDate).valueOf()
+  );
+  
+  // Gera páginas com 10 posts cada
+  return paginate(posts, { pageSize: 10 });
+}
+
+const { page } = Astro.props;
 ---
 
 <Layout title="Blog - Chaveiro Anchieta RJ | Dicas de Segurança e Serviços">
@@ -22,7 +29,7 @@ const posts = (await getCollection('blog')).sort(
     <section class="posts-list section-padding">
       <div class="container">
         <div class="posts-grid">
-          {posts.map(post => (
+          {page.data.map(post => (
             <a href={`/blog/${post.slug}`} class="post-card reveal">
               <span class="category">{post.data.category}</span>
               <span class="date">{post.data.publishDate}</span>
@@ -32,6 +39,24 @@ const posts = (await getCollection('blog')).sort(
             </a>
           ))}
         </div>
+
+        {page.lastPage > 1 && (
+          <div class="pagination">
+            {page.url.prev ? (
+              <a href={page.url.prev} class="btn-page">← Anterior</a>
+            ) : (
+              <span class="btn-page disabled">← Anterior</span>
+            )}
+            
+            <span class="page-info">Página {page.currentPage} de {page.lastPage}</span>
+            
+            {page.url.next ? (
+              <a href={page.url.next} class="btn-page">Próxima →</a>
+            ) : (
+              <span class="btn-page disabled">Próxima →</span>
+            )}
+          </div>
+        )}
       </div>
     </section>
   </main>
@@ -85,6 +110,7 @@ const posts = (await getCollection('blog')).sort(
     transition: all 0.4s ease;
     display: flex;
     flex-direction: column;
+    text-decoration: none;
   }
 
   .post-card:hover {
@@ -99,6 +125,7 @@ const posts = (await getCollection('blog')).sort(
     font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 12px;
+    display: block;
   }
 
   .date {
@@ -127,9 +154,50 @@ const posts = (await getCollection('blog')).sort(
     font-size: 14px;
   }
 
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 60px;
+  }
+
+  .btn-page {
+    padding: 10px 24px;
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+    text-decoration: none;
+    border-radius: var(--radius-sm);
+    font-weight: 700;
+    transition: all 0.3s ease;
+  }
+
+  .btn-page:hover:not(.disabled) {
+    background: var(--color-primary);
+    color: #000;
+  }
+
+  .btn-page.disabled {
+    border-color: var(--color-border);
+    color: var(--color-text-muted);
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .page-info {
+    color: var(--color-text-muted);
+    font-size: 14px;
+    font-weight: 600;
+  }
+
   @media (max-width: 768px) {
     .posts-grid {
       grid-template-columns: 1fr;
+    }
+    
+    .pagination {
+      flex-direction: column;
+      gap: 15px;
     }
   }
 </style>

@@ -11,6 +11,8 @@ De que adianta ter a melhor fechadura do mundo se, ao ouvir a campainha, você a
 
 Neste guia completo, exploraremos por que a instalação de olho mágico e travas de segurança internas são as proteções mais subestimadas e vitais para a sua família, e como os nossos [serviços de chaveiro em Anchieta](/) podem implementar esse sistema na sua casa rapidamente.
 
+![Chaveiro em Anchieta RJ](/chaveiro-em-anchieta-rj.png)
+
 ## O Poder do Olho Mágico (Visor de Porta)
 
 O velho e conhecido olho mágico é, indiscutivelmente, a primeira linha de defesa ativa de qualquer apartamento ou casa com porta direta para a rua ou corredores comuns.

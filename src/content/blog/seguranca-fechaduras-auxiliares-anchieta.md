@@ -9,6 +9,8 @@ A segurança residencial é uma das principais preocupações de quem vive no Ri
 
 Neste artigo, vamos explorar em profundidade como você pode reforçar a segurança da sua casa ou apartamento em Anchieta, detalhando os tipos de fechaduras auxiliares, como elas funcionam e por que você deve considerar essa atualização hoje mesmo.
 
+![Chaveiro em Anchieta RJ](/chaveiro-em-anchieta-rj.png)
+
 ## O Cenário de Segurança em Anchieta e Região
 
 Morar em Anchieta oferece muitas vantagens, incluindo acesso facilitado a vias importantes como a Avenida Brasil e a Via Light. No entanto, essa mesma facilidade de acesso pode ser um atrativo para pessoas mal-intencionadas. Bairros vizinhos como Guadalupe e Ricardo de Albuquerque também compartilham dessa mesma realidade. A prevenção é, sem dúvida, a melhor estratégia. 

@@ -1,0 +1,63 @@
+---
+---
+
+<section class="image-banner section-padding">
+  <div class="container">
+    <div class="image-wrapper reveal">
+      <img src="/chaveiro-em-anchieta-rj.png" alt="Chaveiro em Anchieta RJ - Atendimento Especializado" loading="lazy" />
+    </div>
+  </div>
+</section>
+
+<style>
+  .image-banner {
+    background: var(--color-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .image-wrapper {
+    border-radius: var(--radius, 16px);
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--color-border);
+  }
+
+  .image-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    max-height: 500px; /* limits height so it's not too overwhelming on desktop */
+  }
+
+  @media (max-width: 768px) {
+    .image-wrapper img {
+      max-height: 300px;
+    }
+  }
+</style>
+
+<script>
+  const observerOptions = {
+    threshold: 0.1
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, observerOptions);
+
+  document.querySelectorAll('.image-wrapper.reveal').forEach(el => observer.observe(el));
+</script>

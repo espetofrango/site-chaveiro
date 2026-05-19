@@ -9,6 +9,8 @@ Não há nada mais frustrante do que chegar em casa, cansado após um longo dia 
 
 Neste guia completo, vamos explicar por que as chaves emperram, o que você pode tentar fazer com segurança e quando é a hora certa de chamar um profissional como o nosso [chaveiro em Anchieta 24h](/).
 
+![Chaveiro em Anchieta RJ](/chaveiro-em-anchieta-rj.png)
+
 ## Por que a chave emperra na fechadura?
 
 Para resolver o problema, é útil entender o que está acontecendo dentro daquele pequeno mecanismo de metal. As fechaduras são compostas por cilindros e pinos milimétricos. Qualquer alteração nesse ambiente delicado pode causar um travamento. Os motivos mais comuns incluem:

@@ -13,6 +13,8 @@ Após o alívio inicial de acionar o nosso [serviço de chaveiro em Anchieta](/)
 
 Neste artigo, vamos esclarecer essa questão em detalhes, ajudando você a tomar a decisão mais inteligente e segura para proteger sua família.
 
+![Chaveiro em Anchieta RJ](/chaveiro-em-anchieta-rj.png)
+
 ## Entendendo a Diferença: Cilindro vs. Fechadura Completa
 
 Antes de tomar uma decisão, é importante entender a anatomia básica do mecanismo da sua porta.

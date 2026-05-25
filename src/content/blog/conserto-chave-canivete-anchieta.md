@@ -52,6 +52,30 @@ Atendemos rotineiramente motoristas que chegam à nossa oficina perto da **Clín
 
 Além de consertar a sua chave danificada, a atitude mais segura para evitar surpresas no futuro é providenciar uma [cópia de chave reserva para carros em Anchieta RJ](/blog/copia-chave-reserva-carros-anchieta), economizando tempo e dinheiro em casos de perda total.
 
+## Depoimentos de Clientes em Anchieta
+
+Nossa equipe busca sempre oferecer a solução mecânica e eletrônica mais vantajosa. Veja o que dizem nossos clientes de Anchieta:
+
+- **Marcos Vinícius (Comerciante Local):** *"Minha chave canivete do Chevrolet Cruze estava com a carcaça destruída e os botões furados. Fizeram a reforma rápida na Estrada do Engenho Novo e a chave ficou idêntica a uma nova. Economizei muito em relação a uma chave inteira nova!"*
+- **Sandra Helena (Professora):** *"A lâmina da minha chave canivete não saltava mais por falha mecânica. O técnico substituiu o mecanismo interno de mola em poucos minutos e agora funciona perfeitamente. Serviço ágil e com ótimo custo-benefício."*
+
+## Perguntas Frequentes sobre Conserto de Chave Canivete (FAQ)
+
+### 1. Quanto custa reformar uma chave canivete em comparação a uma nova?
+A reforma e troca de carcaça mecânica ou botões custa em média de 30% a 50% do valor de uma chave codificada canivete nova completa, representando uma excelente economia.
+
+### 2. Vocês trocam apenas a carcaça de plástico se o circuito estiver funcionando?
+Sim. Mantemos toda a sua placa eletrônica e transponder originais e substituímos apenas o invólucro plástico externo desgastado ou quebrado por um novo de primeira linha.
+
+### 3. Minha chave canivete não responde aos cliques de travar e destravar. O problema é a bateria?
+Na maioria dos casos o problema é sanado trocando a bateria interna (pilha). Contudo, se mesmo após a troca ela continuar inoperante, pode haver desgaste físico ou rompimento nas micro-soldas dos botões internos (*microswitches*).
+
+### 4. Posso converter uma chave comum convencional antiga em chave canivete?
+Sim. Realizamos o processo de adaptação de chaves normais antigas para modelos canivete modernos, transferindo o chip eletrônico e esculpindo a nova lâmina canivete pantográfica.
+
+### 5. Quanto tempo demora o serviço de reforma?
+Serviços como troca de carcaça, substituição de botões soldados ou reparo de molas mecânicas são executados na hora em nossa oficina, levando entre 15 a 30 minutos.
+
 ## Conclusão: Reformar é Economizar
 
 Antes de gastar muito dinheiro encomendando uma chave nova inteira, traga sua chave canivete para uma avaliação gratuita com os nossos profissionais locais. Avaliamos a integridade do circuito eletrônico e propomos a solução mais vantajosa e segura para você. Cuidamos do seu patrimônio com carinho, técnica de ponta e transparência total!

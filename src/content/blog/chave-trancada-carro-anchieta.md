@@ -41,6 +41,30 @@ Seja próximo à **Lona Cultural de Anchieta** ou em qualquer outro ponto reside
 
 Se o seu veículo usa uma chave mais moderna e você acabou entortando ou danificando o controle na tentativa de abrir, talvez precise recorrer ao [conserto de chave canivete em Anchieta](/blog/conserto-chave-canivete-anchieta) para restaurar os botões e a lâmina que sofreram com o incidente.
 
+## Depoimentos de Clientes em Anchieta
+
+Nosso compromisso é realizar aberturas rápidas e totalmente limpas. Veja o que dizem alguns dos clientes de Anchieta que atendemos recentemente:
+
+- **Carlos Alberto (Morador de Anchieta):** *"Esqueci a chave na ignição com o carro travado bem perto da Clínica Camim. Pensei em quebrar o vidro traseiro no desespero, mas felizmente chamei a equipe deles. Abriram o carro em menos de dois minutos sem nenhum arranhão na porta. Serviço nota 10!"*
+- **Aline Costa (Frequentadora da Lona Cultural):** *"Tranquei a chave na mala do carro depois de curtir um show na Lona Cultural de Anchieta. O chaveiro chegou muito rápido na emergência e fez uma abertura limpa e profissional usando ferramentas especiais. Recomendo muito!"*
+
+## Perguntas Frequentes sobre Abertura de Veículos (FAQ)
+
+### 1. O método de abertura técnica danifica a pintura ou o vidro do carro?
+Não. Usamos bolsas pneumáticas de fibra sintética e hastes de aço totalmente encapadas com proteção de borracha, garantindo que não ocorra nenhum tipo de atrito metálico na lataria, arranhão ou trinco no vidro.
+
+### 2. Quanto tempo o chaveiro demora para chegar e abrir o carro?
+Nossa equipe está estrategicamente posicionada no bairro de Anchieta, o que nos permite chegar em minutos ao local do chamado. O processo técnico de abertura em si leva apenas alguns segundos na maioria dos carros.
+
+### 3. Vocês conseguem abrir qualquer modelo de veículo?
+Sim. Atendemos desde modelos nacionais mais antigos até veículos importados modernos que possuem sistemas de travamento duplo de alta segurança.
+
+### 4. Por que quebrar o vidro pequeno triangular é um péssimo negócio?
+Os vidros menores são colados na lataria e muito mais raros de encontrar no mercado de reposição. Isso faz com que eles custem até 3 vezes mais caro do que um vidro lateral grande comum, além de darem muito trabalho para limpar os estilhaços internos.
+
+### 5. O alarme do veículo dispara durante a abertura?
+Em alguns modelos, o alarme original pode disparar temporariamente assim que a trava interna é acionada. No entanto, nossos técnicos estão prontos para desativá-lo rapidamente no local assim que o acesso ao painel ou ignição for reestabelecido.
+
 ## Conclusão: Valorize seu patrimônio
 
 Não transforme um pequeno imprevisto em uma enorme conta na oficina mecânica e de funilaria. Ao perceber que as chaves ficaram presas no interior do carro, resista à tentação de agir por conta própria ou de chamar vizinhos bem-intencionados, mas sem as ferramentas certas. Salve nosso número de atendimento emergencial de chaveiro 24h e tenha a tranquilidade de saber que sua segurança e o seu patrimônio estão protegidos por técnicos experientes e altamente capacitados.

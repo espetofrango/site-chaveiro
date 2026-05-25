@@ -43,6 +43,30 @@ Se você está buscando um [chaveiro de carros em Anchieta](/) confiável, que e
 
 Para compreender melhor a tecnologia de segurança que faz as chaves do carro funcionarem eletronicamente e por que não basta apenas copiar o metal da lâmina, vale a pena se aprofundar e descobrir [o que é o sistema transponder da chave do carro](/blog/sistema-transponder-chave-carro-anchieta), desmistificando a eletrônica imobilizadora do motor.
 
+## Depoimentos de Clientes em Anchieta
+
+Nossa missão é evitar dores de cabeça com soluções preventivas rápidas. Veja o depoimento de quem já garantiu a sua segurança preventiva conosco:
+
+- **Felipe Ramos (Motorista de Aplicativo):** *"Fui orientado pelo chaveiro da equipe a fazer a chave reserva antes que perdesse a única que eu tinha. O conselho me poupou de uma dor de cabeça imensa e de custos desnecessários. O atendimento aqui em Anchieta foi super rápido e o preço extremamente honesto."*
+- **Beatriz Lima (Moradora próxima à Praça Granito):** *"Fiz a cópia da minha chave reserva do carro. Fui muito bem atendida, a chave ficou perfeita e agora tenho a tranquilidade de saber que, se acontecer qualquer imprevisto com a principal, não ficarei a pé."*
+
+## Perguntas Frequentes sobre Chave Reserva (FAQ)
+
+### 1. Preciso levar o carro até o chaveiro para fazer a cópia reserva?
+Sim. Para a grande maioria dos carros modernos, a gravação eletrônica do chip transponder exige que conectemos o scanner de diagnóstico diretamente no conector OBD físico do próprio veículo.
+
+### 2. Se eu perder todas as chaves, o processo de cópia ainda é possível?
+Sim, mas o serviço deixa de ser uma cópia simples e se torna um processo complexo de "recuperação do zero". Ele exige a abertura técnica do veículo, leitura do segredo das fechaduras e programação avançada, o que o torna até 5 vezes mais caro.
+
+### 3. Quanto tempo demora para fazer a cópia de uma chave reserva?
+O processo de corte pantográfico preciso da lâmina metálica e a programação eletrônica do chip levam, em média, de 20 a 40 minutos para a maioria dos veículos.
+
+### 4. A chave reserva precisa ter os botões do alarme obrigatoriamente?
+Não. Se o seu objetivo for puramente economia, podemos fabricar uma chave reserva "seca" (sem telecomando de alarme). Ela abrirá a porta mecanicamente e ligará o motor normalmente por indução do chip transponder, custando muito menos.
+
+### 5. Qual a durabilidade de uma chave cópia?
+A durabilidade é idêntica à de uma chave original de fábrica. Utilizamos componentes, transponders e carcaças de primeira linha com alta resistência a quedas e desgastes do dia a dia.
+
 ## Conclusão: Não espere o pior acontecer
 
 Perder a chave do carro é uma situação extremamente desagradável, mas que pode ser totalmente prevenida com planejamento. Invista na sua tranquilidade e na segurança do seu patrimônio. Faça uma visita ao nosso posto de atendimento em Anchieta ou ligue para agendar a cópia da sua chave automotiva. Garantimos um atendimento profissional, ágil e a certeza de que você nunca ficará a pé na nossa região!

@@ -52,6 +52,30 @@ Seja para atendimento agendado ou em casos de emergência perto da **Clínica Ca
 
 Se a sua chave de repente parar de funcionar e você desconfiar que o chip transponder possa ter desconfigurado ou queimado, leia nosso artigo completo sobre [chave codificada em Anchieta RJ](/blog/chave-codificada-anchieta-rj) para saber exatamente quais testes preliminares fazer antes de chamar o socorro técnico.
 
+## Depoimentos de Clientes em Anchieta
+
+Nossa bagagem técnica garante diagnósticos rápidos e precisos. Veja o que dizem alguns clientes da nossa região sobre o atendimento especializado em imobilizadores:
+
+- **Thiago Silva (Técnico de Informática):** *"Meu carro simplesmente não ligava de jeito nenhum e a luz de cadeado no painel piscava sem parar. O chaveiro automotivo veio até mim perto da Estrada do Engenho Novo, diagnosticou em minutos que o transponder original estava queimado e programou um novo chip ali mesmo na rua. Excelente conhecimento técnico!"*
+- **Patrícia Albuquerque (Moradora de Anchieta):** *"Tive um problema na partida do meu carro por falha no imobilizador eletrônico. A equipe me atendeu super bem perto da Praça Granito, explicando detalhadamente como o chip transponder funcionava antes de efetuar a gravação de uma nova chave. Confiança total no trabalho deles."*
+
+## Perguntas Frequentes sobre Sistema Transponder (FAQ)
+
+### 1. O chip transponder precisa de bateria para dar a partida no motor?
+Não para chaves convencionais. A maioria dos transponders comuns de vidro ou cerâmica funciona de forma passiva, sendo ativada apenas por indução eletromagnética gerada pela bobina de antena instalada em volta do miolo de ignição do veículo.
+
+### 2. O que acontece se o chip transponder trincar ou quebrar fisicamente?
+Como ele é um microchip delicado, qualquer rachadura que rompa a sua microantena interna de cobre impedirá que ele transmita seu código imobilizador. O carro não reconhecerá a chave e o motor de partida girará sem ligar o veículo.
+
+### 3. É possível clonar um transponder de código rotativo moderno?
+Não por meio de aparelhos clonadores comuns. Chips modernos com criptografia rolling code exigem softwares industriais de programação que realizam o cadastro do chip diretamente no banco de dados da central de injeção e imobilizador do carro.
+
+### 4. Como diferenciar um problema no transponder de um problema na bateria do carro?
+Se ao girar a ignição o painel acender normalmente, os faróis funcionarem e o motor de partida 'virar' com força, mas a luz do cadeado/chave permanecer piscando rapidamente no painel, o problema reside na comunicação do imobilizador (transponder) e não na carga da bateria.
+
+### 5. Vocês realizam a gravação de transponders para chaves de motos?
+Sim. Efetuamos o diagnóstico, cópia e gravação eletrônica de chips imobilizadores tanto para a linha de veículos nacionais e importados quanto para motocicletas modernas de média e alta cilindrada.
+
 ## Conclusão: Segurança eletrônica é coisa séria
 
 O chip transponder é o cérebro protetor do seu carro. Manter sua chave em bom estado de conservação, livre de quedas violentas e umidade excessiva, é fundamental para garantir o perfeito funcionamento do imobilizador. E lembre-se: a melhor forma de se proteger contra imprevistos é ter sempre uma cópia programada em mãos. Conte com a nossa equipe local de especialistas para cuidar da tecnologia do seu veículo!

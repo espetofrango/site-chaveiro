@@ -141,6 +141,27 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"blog": {
+"chave-codificada-anchieta-rj.md": {
+	id: "chave-codificada-anchieta-rj.md";
+  slug: "chave-codificada-anchieta-rj";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"chave-emperrada-fechadura-anchieta.md": {
+	id: "chave-emperrada-fechadura-anchieta.md";
+  slug: "chave-emperrada-fechadura-anchieta";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"chave-trancada-carro-anchieta.md": {
+	id: "chave-trancada-carro-anchieta.md";
+  slug: "chave-trancada-carro-anchieta";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "chaveiro-24h-em-anchieta-rj.md": {
 	id: "chaveiro-24h-em-anchieta-rj.md";
   slug: "chaveiro-24h-em-anchieta-rj";
@@ -151,6 +172,55 @@ declare module 'astro:content' {
 "chaveiro-automotivo-anchieta.md": {
 	id: "chaveiro-automotivo-anchieta.md";
   slug: "chaveiro-automotivo-anchieta";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"conserto-chave-canivete-anchieta.md": {
+	id: "conserto-chave-canivete-anchieta.md";
+  slug: "conserto-chave-canivete-anchieta";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"copia-chave-reserva-carros-anchieta.md": {
+	id: "copia-chave-reserva-carros-anchieta.md";
+  slug: "copia-chave-reserva-carros-anchieta";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"copia-de-chaves-em-anchieta.md": {
+	id: "copia-de-chaves-em-anchieta.md";
+  slug: "copia-de-chaves-em-anchieta";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"instalacao-olho-magico-travas-anchieta.md": {
+	id: "instalacao-olho-magico-travas-anchieta.md";
+  slug: "instalacao-olho-magico-travas-anchieta";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"perdi-chave-de-casa-anchieta.md": {
+	id: "perdi-chave-de-casa-anchieta.md";
+  slug: "perdi-chave-de-casa-anchieta";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"seguranca-fechaduras-auxiliares-anchieta.md": {
+	id: "seguranca-fechaduras-auxiliares-anchieta.md";
+  slug: "seguranca-fechaduras-auxiliares-anchieta";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"sistema-transponder-chave-carro-anchieta.md": {
+	id: "sistema-transponder-chave-carro-anchieta.md";
+  slug: "sistema-transponder-chave-carro-anchieta";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">

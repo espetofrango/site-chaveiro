@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://chaveiroanchietarj24h.com.br/sitemap-index.xml

@@ -155,6 +155,20 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"chave-mestra-condominios-anchieta.md": {
+	id: "chave-mestra-condominios-anchieta.md";
+  slug: "chave-mestra-condominios-anchieta";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"chave-quebrada-dentro-fechadura-anchieta.md": {
+	id: "chave-quebrada-dentro-fechadura-anchieta.md";
+  slug: "chave-quebrada-dentro-fechadura-anchieta";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "chave-trancada-carro-anchieta.md": {
 	id: "chave-trancada-carro-anchieta.md";
   slug: "chave-trancada-carro-anchieta";
@@ -172,6 +186,13 @@ declare module 'astro:content' {
 "chaveiro-automotivo-anchieta.md": {
 	id: "chaveiro-automotivo-anchieta.md";
   slug: "chaveiro-automotivo-anchieta";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"chaveiro-domingo-feriado-anchieta.md": {
+	id: "chaveiro-domingo-feriado-anchieta.md";
+  slug: "chaveiro-domingo-feriado-anchieta";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -197,9 +218,37 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"emergencias-trincos-fechaduras-anchieta.md": {
+	id: "emergencias-trincos-fechaduras-anchieta.md";
+  slug: "emergencias-trincos-fechaduras-anchieta";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"fechadura-digital-comercio-anchieta.md": {
+	id: "fechadura-digital-comercio-anchieta.md";
+  slug: "fechadura-digital-comercio-anchieta";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"fechadura-tetra-anchieta-custo-beneficio.md": {
+	id: "fechadura-tetra-anchieta-custo-beneficio.md";
+  slug: "fechadura-tetra-anchieta-custo-beneficio";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "instalacao-olho-magico-travas-anchieta.md": {
 	id: "instalacao-olho-magico-travas-anchieta.md";
   slug: "instalacao-olho-magico-travas-anchieta";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"manutencao-fechaduras-molas-anchieta.md": {
+	id: "manutencao-fechaduras-molas-anchieta.md";
+  slug: "manutencao-fechaduras-molas-anchieta";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -211,9 +260,23 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"perdi-chave-portao-cadeado-anchieta.md": {
+	id: "perdi-chave-portao-cadeado-anchieta.md";
+  slug: "perdi-chave-portao-cadeado-anchieta";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "seguranca-fechaduras-auxiliares-anchieta.md": {
 	id: "seguranca-fechaduras-auxiliares-anchieta.md";
   slug: "seguranca-fechaduras-auxiliares-anchieta";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"seguranca-portas-aco-comerciais.md": {
+	id: "seguranca-portas-aco-comerciais.md";
+  slug: "seguranca-portas-aco-comerciais";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">

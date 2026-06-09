@@ -11,7 +11,10 @@ function generateSitemap() {
   // URLs estáticas básicas
   const urls = [
     { loc: `${SITE_URL}/`, changefreq: 'weekly', priority: '1.0' },
-    { loc: `${SITE_URL}/blog/`, changefreq: 'daily', priority: '0.8' }
+    { loc: `${SITE_URL}/blog/`, changefreq: 'daily', priority: '0.8' },
+    { loc: `${SITE_URL}/chaveiro-em-ricardo-de-albuquerque/`, changefreq: 'weekly', priority: '0.9' },
+    { loc: `${SITE_URL}/chaveiro-em-nilopolis/`, changefreq: 'weekly', priority: '0.9' },
+    { loc: `${SITE_URL}/chaveiro-em-mesquita/`, changefreq: 'weekly', priority: '0.9' }
   ];
 
   // Ler posts do blog

@@ -1,0 +1,1398 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+
+const pageTitle = "Chaveiro em Ricardo de Albuquerque 24h | Atendimento Rápido e Sem Danos";
+const pageDescription = "Chaveiro 24 horas em Ricardo de Albuquerque, RJ. Abertura de portas, troca de fechaduras, chaves codificadas. Atendimento residencial, automotivo e comercial com chegada em até 15 minutos.";
+---
+
+<Layout title={pageTitle} description={pageDescription}>
+  <!-- JSON-LD Schema.org para SEO Local específico de Ricardo de Albuquerque -->
+  <script type="application/ld+json" slot="head" is:inline>
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Chaveiro Anchieta RJ",
+      "image": "https://chaveiroanchietarj24h.com.br/chaveiro-em-ricardo-de-albuquerque.png",
+      "@id": "https://chaveiroanchietarj24h.com.br/chaveiro-em-ricardo-de-albuquerque",
+      "url": "https://chaveiroanchietarj24h.com.br/chaveiro-em-ricardo-de-albuquerque",
+      "telephone": "+5521970789881",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Rio de Janeiro",
+        "addressRegion": "RJ",
+        "addressCountry": "BR",
+        "streetAddress": "Ricardo de Albuquerque"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-22.8398",
+        "longitude": "-43.3942"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday", "Tuesday", "Wednesday", "Thursday",
+          "Friday", "Saturday", "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Ricardo de Albuquerque, Rio de Janeiro"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Anchieta, Rio de Janeiro"
+        }
+      ]
+    }
+  </script>
+
+  <!-- FAQ Schema.org -->
+  <script type="application/ld+json" slot="head" is:inline>
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quanto custa o serviço de um chaveiro 24h em Ricardo de Albuquerque?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O valor do serviço varia de acordo com a complexidade (ex: fechadura simples vs. chave pantográfica/tetra) e o horário do chamado. Plantões noturnos e de madrugada possuem taxas diferenciadas. Entre em contato enviando uma foto da sua fechadura pelo WhatsApp para receber um orçamento exato e sem compromisso."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vocês atendem emergências na madrugada em Ricardo de Albuquerque?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. Nossa equipe de chaveiros de plantão trabalha em regime de escala 24 horas por dia. Se você perdeu as chaves ou teve a fechadura danificada de madrugada, basta ligar que nossa base móvel mais próxima será acionada."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O chaveiro consegue abrir carros importados ou chaves eletrônicas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. Contamos com chaveiros automotivos especializados em Ricardo de Albuquerque capazes de fazer leitura eletrônica e abertura de veículos importados de diversas marcas, utilizando ferramentas que protegem a integridade do seu carro."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual é o tempo de garantia para serviços de troca de fechadura?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Todos os nossos serviços de instalação e substituição de fechaduras residenciais ou comerciais acompanham garantia formal do serviço prestado, além da garantia de fábrica das marcas líderes de mercado (como Stam, Pado, Gold, Soprano e Papaiz) que instalamos."
+          }
+        }
+      ]
+    }
+  </script>
+
+  <Navbar />
+  
+  <main class="location-page">
+    <!-- HERO SECTION -->
+    <section class="loc-hero" id="hero-ricardo">
+      <div class="hero-bg-effects">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="grid-overlay"></div>
+      </div>
+      <div class="container hero-content">
+        <div class="hero-text">
+          <div class="badge">
+            <span class="pulse-dot"></span>
+            Plantão 24h — Atendemos Agora
+          </div>
+          <h1>Chaveiro em <span class="highlight">Ricardo de Albuquerque</span> 24h: Atendimento Rápido e Sem Danos</h1>
+          <p class="hero-subtitle">Precisa de um chaveiro em Ricardo de Albuquerque de extrema confiança e com atendimento rápido? Seja para uma emergência residencial no meio da noite, abertura de veículo travado ou troca de segredo de fechaduras comerciais, nossa equipe oferece suporte técnico especializado com plantão permanente de <strong>24 horas</strong>, inclusive aos sábados, domingos e feriados.</p>
+          <p class="hero-detail">Por estarmos baseados estrategicamente na região, garantimos um dos menores tempos de deslocamento da Zona Norte para Ricardo de Albuquerque e adjacências.</p>
+          <div class="hero-ctas">
+            <a href="https://api.whatsapp.com/send?phone=5521970789881&text=Ol%C3%A1%2C%20preciso%20de%20um%20chaveiro%20em%20Ricardo%20de%20Albuquerque%20urgente" class="btn-primary" id="cta-whatsapp-hero" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+              Chamar no WhatsApp
+            </a>
+            <a href="tel:21970789881" class="btn-secondary" id="cta-telefone-hero">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              (21) 97078-9881
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number">15<small>min</small></span>
+              <span class="stat-label">Chegada média</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-number">24<small>h</small></span>
+              <span class="stat-label">Plantão permanente</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-number">0<small>danos</small></span>
+              <span class="stat-label">À sua estrutura</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image-wrap">
+          <div class="image-glow"></div>
+          <img src="/chaveiro-em-ricardo-de-albuquerque.png" alt="Chaveiro em Ricardo de Albuquerque - Chaveiro Anchieta RJ 24 horas" class="hero-img" width="580" height="580" />
+        </div>
+      </div>
+    </section>
+
+    <!-- TABELA DE TEMPO DE RESPOSTA -->
+    <section class="response-time reveal" id="tempo-resposta">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">⚡</span>
+          <h2>Atendimento Rápido de Emergência: <span class="highlight">Tempo Estimado de Chegada</span></h2>
+        </div>
+        <div class="table-wrapper">
+          <table class="response-table" id="tabela-tempo-resposta">
+            <thead>
+              <tr>
+                <th>Região de Atendimento</th>
+                <th>Tempo de Resposta Estimado</th>
+                <th>Principais Rotas de Acesso</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="region-name">
+                    <span class="region-dot green"></span>
+                    Próximo à Estação de Ricardo
+                  </div>
+                </td>
+                <td><span class="time-badge fast">10 a 15 min</span></td>
+                <td>Estrada Marechal Alencastro / Rua Juparanã</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="region-name">
+                    <span class="region-dot green"></span>
+                    Área Residencial / Divisa com Anchieta
+                  </div>
+                </td>
+                <td><span class="time-badge fast">10 a 15 min</span></td>
+                <td>Estrada do Engenho Novo / Rua Cardoso de Castro</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="region-name">
+                    <span class="region-dot yellow"></span>
+                    Próximo à Divisa com Deodoro (Vila Militar)
+                  </div>
+                </td>
+                <td><span class="time-badge medium">15 a 20 min</span></td>
+                <td>Estrada Camboatá / Estrada do prolongamento</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="region-name">
+                    <span class="region-dot green"></span>
+                    Parque Anchieta (Adjacente)
+                  </div>
+                </td>
+                <td><span class="time-badge fast">10 a 15 min</span></td>
+                <td>Estrada do Cafundá / Estrada do Geógrafo</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="services-section reveal" id="servicos-ricardo">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">🛠️</span>
+          <h2>Nossos Serviços de Chaveiro em <span class="highlight">Ricardo de Albuquerque</span></h2>
+          <p class="section-sub">Atuamos com maquinário moderno e ferramentas que abrem portas e fechaduras <strong>sem causar danos</strong> à sua estrutura física.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Residencial -->
+          <div class="service-card" id="servico-residencial">
+            <div class="card-icon-wrap">
+              <span class="card-icon">🏠</span>
+            </div>
+            <h3>Chaveiro Residencial</h3>
+            <ul>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                Abertura de portas residenciais (portas de madeira, ferro, alumínio ou blindadas).
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                Troca e instalação de fechaduras de segurança, tetra e fechaduras digitais.
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                Cópia de chaves residenciais simples, multiponto e tetra.
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                Abertura e manutenção de cofres mecânicos e digitais.
+              </li>
+            </ul>
+          </div>
+
+          <!-- Automotivo -->
+          <div class="service-card featured" id="servico-automotivo">
+            <div class="featured-badge">Mais Solicitado</div>
+            <div class="card-icon-wrap">
+              <span class="card-icon">🚗</span>
+            </div>
+            <h3>Chaveiro Automotivo 24h</h3>
+            <ul>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                Abertura técnica de veículos nacionais e importados sem riscar a pintura ou danificar as borrachas.
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                Confecção de chaves codificadas e leitura de senha de imobilizador.
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                Cópia de chave canivete e substituição de carcaças gastas.
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                Extração de chaves quebradas diretamente da ignição ou da ignição de motos.
+              </li>
+            </ul>
+          </div>
+
+          <!-- Empresas -->
+          <div class="service-card" id="servico-comercial">
+            <div class="card-icon-wrap">
+              <span class="card-icon">🏢</span>
+            </div>
+            <h3>Chaveiro para Empresas e Condomínios</h3>
+            <ul>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                Instalação de mola aérea para portas de condomínio.
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                Unificação e mestragem de chaves (uma única chave abre vários portões/portas).
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                Manutenção de fechaduras elétricas e sistemas de controle de acesso por tag/biometria.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COBERTURA GEOGRÁFICA -->
+    <section class="coverage-section reveal" id="cobertura-geografica">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">📍</span>
+          <h2>Cobertura Geográfica e Pontos de Referência em <span class="highlight">Ricardo de Albuquerque</span></h2>
+          <p class="section-sub">Para garantir que estamos sempre perto de você, nossas unidades móveis cobrem todas as principais ruas, praças e marcos de Ricardo de Albuquerque.</p>
+        </div>
+
+        <div class="coverage-grid">
+          <div class="coverage-card">
+            <div class="coverage-icon">🚉</div>
+            <h3>Estação de Trem de Ricardo de Albuquerque (SuperVia)</h3>
+            <p>Ponto central de rápido deslocamento.</p>
+          </div>
+          <div class="coverage-card">
+            <div class="coverage-icon">🛣️</div>
+            <h3>Estrada Marechal Alencastro</h3>
+            <p>Principal via de ligação de comércio local.</p>
+          </div>
+          <div class="coverage-card">
+            <div class="coverage-icon">🏛️</div>
+            <h3>Praça de Ricardo de Albuquerque</h3>
+            <p>Atendimento imediato em toda a área comercial circundante.</p>
+          </div>
+          <div class="coverage-card">
+            <div class="coverage-icon">🏘️</div>
+            <h3>Estrada do Camboatá</h3>
+            <p>Cobertura rápida para os condomínios e residências adjacentes.</p>
+          </div>
+          <div class="coverage-card">
+            <div class="coverage-icon">🎖️</div>
+            <h3>Divisa com a Vila Militar de Deodoro</h3>
+            <p>Suporte ágil para militares e moradores da fronteira do bairro.</p>
+          </div>
+        </div>
+
+        <!-- Mapa Embed -->
+        <div class="map-container" id="mapa-ricardo">
+          <iframe 
+            src="https://maps.google.com/maps?q=Ricardo+de+Albuquerque+Rio+de+Janeiro+RJ&t=&z=14&ie=UTF8&iwloc=&output=embed"
+            width="100%" 
+            height="400" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy"
+            title="Mapa de Ricardo de Albuquerque - Cobertura do Chaveiro Anchieta">
+          </iframe>
+        </div>
+
+        <!-- Cross-link para bairros vizinhos -->
+        <div class="cross-link-box">
+          <p>A nossa cobertura estende-se por toda a região, oferecendo suporte ágil tanto no centro do bairro quanto em áreas vizinhas, como <a href="/chaveiro-em-nilopolis" class="inline-link">chaveiro em Nilópolis</a>, <a href="/chaveiro-em-mesquita" class="inline-link">Mesquita</a> e nossa central em <a href="/" class="inline-link">Anchieta</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- POR QUE NOS ESCOLHER -->
+    <section class="why-us-section reveal" id="por-que-escolher">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">🤖</span>
+          <h2>Por que Escolher Nosso Serviço em <span class="highlight">Ricardo de Albuquerque</span>?</h2>
+          <p class="section-sub">Quando você pergunta a assistentes de voz ou ferramentas de inteligência artificial qual é o melhor chaveiro local, o nosso diferencial se destaca:</p>
+        </div>
+
+        <div class="why-grid">
+          <div class="why-card">
+            <div class="why-icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="23"></line><line x1="8" y1="23" x2="16" y2="23"></line></svg>
+            </div>
+            <h3>Preço Justo e Sem Surpresas</h3>
+            <p>Apresentamos o orçamento de forma clara antes do início do serviço de abertura ou troca.</p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            </div>
+            <h3>Profissionais Identificados</h3>
+            <p>Nossos chaveiros trabalham uniformizados, com identificação clara e veículos equipados, garantindo a sua total segurança residencial.</p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line></svg>
+            </div>
+            <h3>Equipamento Tecnológico</h3>
+            <p>Trabalhamos com ferramentas de pantógrafo e scanners automotivos atualizados para resolver os problemas de chaves eletrônicas na hora.</p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            </div>
+            <h3>Agilidade Geográfica</h3>
+            <p>Como conhecemos cada atalho e fluxo de trânsito da Estrada Marechal Alencastro e arredores, evitamos atrasos causados pelo trânsito da região.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section reveal" id="faq-ricardo">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-icon">💬</span>
+          <h2>Perguntas Frequentes sobre Chaveiro em <span class="highlight">Ricardo de Albuquerque</span></h2>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item" id="faq-preco">
+            <summary>
+              <h3>Quanto custa o serviço de um chaveiro 24h em Ricardo de Albuquerque?</h3>
+              <span class="faq-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </span>
+            </summary>
+            <div class="faq-answer">
+              <p>O valor do serviço varia de acordo com a complexidade (ex: fechadura simples vs. chave pantográfica/tetra) e o horário do chamado (plantões noturnos e de madrugada possuem taxas diferenciadas). Entre em contato enviando uma foto da sua fechadura pelo WhatsApp para receber um orçamento exato e sem compromisso.</p>
+            </div>
+          </details>
+
+          <details class="faq-item" id="faq-madrugada">
+            <summary>
+              <h3>Vocês atendem emergências na madrugada em Ricardo de Albuquerque?</h3>
+              <span class="faq-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </span>
+            </summary>
+            <div class="faq-answer">
+              <p>Sim. Nossa equipe de chaveiros de plantão trabalha em regime de escala 24 horas por dia. Se você perdeu as chaves ou teve a fechadura danificada de madrugada, basta ligar que nossa base móvel mais próxima será acionada.</p>
+            </div>
+          </details>
+
+          <details class="faq-item" id="faq-importados">
+            <summary>
+              <h3>O chaveiro consegue abrir carros importados ou chaves eletrônicas?</h3>
+              <span class="faq-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </span>
+            </summary>
+            <div class="faq-answer">
+              <p>Sim. Contamos com chaveiros automotivos especializados em Ricardo de Albuquerque capazes de fazer leitura eletrônica e abertura de veículos importados de diversas marcas, utilizando ferramentas que protegem a integridade do seu carro.</p>
+            </div>
+          </details>
+
+          <details class="faq-item" id="faq-garantia">
+            <summary>
+              <h3>Qual é o tempo de garantia para serviços de troca de fechadura?</h3>
+              <span class="faq-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </span>
+            </summary>
+            <div class="faq-answer">
+              <p>Todos os nossos serviços de instalação e substituição de fechaduras residenciais ou comerciais acompanham garantia formal do serviço prestado, além da garantia de fábrica das marcas líderes de mercado (como Stam, Pado, Gold, Soprano e Papaiz) que instalamos.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="final-cta-section reveal" id="contato-ricardo">
+      <div class="container">
+        <div class="cta-box">
+          <div class="cta-glow"></div>
+          <div class="cta-inner">
+            <span class="cta-icon">📞</span>
+            <h2>Precisa de Chaveiro Agora? <span class="highlight">Entre em Contato!</span></h2>
+            <p>Não fique trancado para fora. Fale agora mesmo com nossa central de atendimento e garanta socorro rápido em Ricardo de Albuquerque.</p>
+            <div class="cta-buttons">
+              <a href="https://api.whatsapp.com/send?phone=5521970789881&text=Ol%C3%A1%2C%20preciso%20de%20um%20chaveiro%20em%20Ricardo%20de%20Albuquerque%20urgente" class="btn-primary large" id="cta-whatsapp-final" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                WhatsApp: (21) 97078-9881
+              </a>
+              <a href="tel:21970789881" class="btn-secondary large" id="cta-telefone-final">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                Ligar Agora
+              </a>
+            </div>
+            <div class="cta-meta">
+              <span>⏱️ Tempo médio de chegada em Ricardo: <strong>15 minutos</strong></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <Footer />
+  </main>
+</Layout>
+
+<style>
+  /* ===== PÁGINA DE LOCALIDADE - RICARDO DE ALBUQUERQUE ===== */
+
+  .location-page {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .highlight {
+    color: var(--color-primary);
+    position: relative;
+  }
+
+  .inline-link {
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 215, 0, 0.3);
+    text-underline-offset: 3px;
+    transition: all 0.3s ease;
+  }
+
+  .inline-link:hover {
+    text-decoration-color: var(--color-primary);
+    filter: brightness(1.2);
+  }
+
+  .cross-link-box {
+    background: rgba(255, 215, 0, 0.05);
+    border: 1px solid rgba(255, 215, 0, 0.15);
+    border-radius: var(--radius);
+    padding: 24px 32px;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .cross-link-box p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .section-icon {
+    font-size: 40px;
+    display: block;
+    margin-bottom: 16px;
+  }
+
+  .section-header h2 {
+    font-size: clamp(28px, 4.5vw, 44px);
+    margin-bottom: 16px;
+    color: #fff;
+  }
+
+  .section-sub {
+    font-size: 18px;
+    color: var(--color-text-muted);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  /* ===== HERO ===== */
+  .loc-hero {
+    position: relative;
+    padding: 140px 0 100px;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .hero-bg-effects {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  .orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(120px);
+    opacity: 0.35;
+  }
+
+  .orb-1 {
+    width: 500px;
+    height: 500px;
+    background: var(--color-primary);
+    top: -100px;
+    right: -100px;
+    animation: float 8s ease-in-out infinite;
+  }
+
+  .orb-2 {
+    width: 400px;
+    height: 400px;
+    background: var(--color-secondary);
+    bottom: -50px;
+    left: -100px;
+    animation: float 10s ease-in-out infinite reverse;
+  }
+
+  .orb-3 {
+    width: 300px;
+    height: 300px;
+    background: var(--color-accent);
+    top: 50%;
+    left: 40%;
+    opacity: 0.15;
+    animation: float 12s ease-in-out infinite;
+  }
+
+  .grid-overlay {
+    position: absolute;
+    inset: 0;
+    background-image: 
+      linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px) scale(1); }
+    50% { transform: translateY(-30px) scale(1.05); }
+  }
+
+  .hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 215, 0, 0.1);
+    border: 1px solid rgba(255, 215, 0, 0.25);
+    padding: 8px 20px;
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-bottom: 28px;
+    backdrop-filter: blur(10px);
+  }
+
+  .pulse-dot {
+    width: 8px;
+    height: 8px;
+    background: #22c55e;
+    border-radius: 50%;
+    animation: pulse 2s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.6); }
+    50% { opacity: 0.7; box-shadow: 0 0 0 8px rgba(34, 197, 94, 0); }
+  }
+
+  .hero-text h1 {
+    font-size: clamp(32px, 5vw, 54px);
+    margin-bottom: 24px;
+    color: #fff;
+    line-height: 1.1;
+  }
+
+  .hero-subtitle {
+    font-size: 17px;
+    line-height: 1.8;
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 16px;
+  }
+
+  .hero-detail {
+    font-size: 15px;
+    color: var(--color-text-muted);
+    margin-bottom: 32px;
+    line-height: 1.7;
+    padding-left: 16px;
+    border-left: 3px solid var(--color-primary);
+  }
+
+  .hero-ctas {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+  }
+
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
+    color: #fff;
+    padding: 16px 32px;
+    border-radius: var(--radius-sm);
+    font-weight: 700;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(37, 211, 102, 0.5);
+  }
+
+  .btn-primary.large {
+    padding: 20px 40px;
+    font-size: 18px;
+  }
+
+  .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #fff;
+    padding: 16px 32px;
+    border-radius: var(--radius-sm);
+    font-weight: 700;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+  }
+
+  .btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    transform: translateY(-3px);
+  }
+
+  .btn-secondary.large {
+    padding: 20px 40px;
+    font-size: 18px;
+  }
+
+  .hero-stats {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .stat {
+    text-align: center;
+  }
+
+  .stat-number {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--color-primary);
+    line-height: 1;
+  }
+
+  .stat-number small {
+    font-size: 16px;
+    color: var(--color-text-muted);
+    font-weight: 600;
+  }
+
+  .stat-label {
+    font-size: 13px;
+    color: var(--color-text-muted);
+    margin-top: 4px;
+    display: block;
+  }
+
+  .stat-divider {
+    width: 1px;
+    height: 50px;
+    background: var(--color-border);
+  }
+
+  .hero-image-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image-glow {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    background: radial-gradient(circle, rgba(255, 215, 0, 0.2) 0%, transparent 70%);
+    border-radius: 50%;
+    filter: blur(60px);
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .hero-img {
+    position: relative;
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    border-radius: 24px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 215, 0, 0.15);
+    animation: fadeUp 1s ease forwards;
+  }
+
+  /* ===== TABELA DE TEMPO DE RESPOSTA ===== */
+  .response-time {
+    padding: var(--section-padding) 0;
+  }
+
+  .table-wrapper {
+    overflow-x: auto;
+    border-radius: var(--radius);
+    border: 1px solid var(--color-border);
+    background: var(--color-bg-card);
+    backdrop-filter: blur(20px);
+  }
+
+  .response-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+  }
+
+  .response-table thead {
+    background: rgba(255, 215, 0, 0.08);
+  }
+
+  .response-table th {
+    padding: 20px 24px;
+    text-align: left;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--color-primary);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .response-table td {
+    padding: 20px 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    color: rgba(255,255,255,0.85);
+    line-height: 1.5;
+  }
+
+  .response-table tbody tr {
+    transition: background 0.3s ease;
+  }
+
+  .response-table tbody tr:hover {
+    background: rgba(255, 215, 0, 0.04);
+  }
+
+  .response-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  .region-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+  }
+
+  .region-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .region-dot.green {
+    background: #22c55e;
+    box-shadow: 0 0 8px rgba(34, 197, 94, 0.5);
+  }
+
+  .region-dot.yellow {
+    background: #eab308;
+    box-shadow: 0 0 8px rgba(234, 179, 8, 0.5);
+  }
+
+  .time-badge {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 13px;
+  }
+
+  .time-badge.fast {
+    background: rgba(34, 197, 94, 0.15);
+    color: #22c55e;
+    border: 1px solid rgba(34, 197, 94, 0.3);
+  }
+
+  .time-badge.medium {
+    background: rgba(234, 179, 8, 0.15);
+    color: #eab308;
+    border: 1px solid rgba(234, 179, 8, 0.3);
+  }
+
+  /* ===== SERVIÇOS ===== */
+  .services-section {
+    padding: var(--section-padding) 0;
+    background: linear-gradient(180deg, transparent 0%, rgba(0, 35, 102, 0.08) 50%, transparent 100%);
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+  }
+
+  .service-card {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 36px 28px;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+
+  .service-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(255, 215, 0, 0.2);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  }
+
+  .service-card:hover::before {
+    opacity: 1;
+  }
+
+  .service-card.featured {
+    border-color: rgba(255, 215, 0, 0.3);
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.05) 0%, rgba(0, 35, 102, 0.1) 100%);
+  }
+
+  .featured-badge {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: var(--color-primary);
+    color: var(--color-bg);
+    padding: 4px 14px;
+    border-radius: 100px;
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .card-icon-wrap {
+    margin-bottom: 20px;
+  }
+
+  .card-icon {
+    font-size: 42px;
+    display: block;
+  }
+
+  .service-card h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .service-card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .service-card li {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    font-size: 14.5px;
+    color: rgba(255,255,255,0.8);
+    line-height: 1.6;
+  }
+
+  .check-icon {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    color: var(--color-primary);
+    margin-top: 3px;
+  }
+
+  /* ===== COBERTURA GEOGRÁFICA ===== */
+  .coverage-section {
+    padding: var(--section-padding) 0;
+  }
+
+  .coverage-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 48px;
+  }
+
+  .coverage-card {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 28px 24px;
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+
+  .coverage-card:hover {
+    border-color: rgba(255, 215, 0, 0.2);
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .coverage-icon {
+    font-size: 36px;
+    margin-bottom: 14px;
+    display: block;
+  }
+
+  .coverage-card h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #fff;
+    line-height: 1.3;
+  }
+
+  .coverage-card p {
+    font-size: 14px;
+    color: var(--color-text-muted);
+    line-height: 1.5;
+  }
+
+  .map-container {
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  }
+
+  .map-container iframe {
+    display: block;
+    width: 100%;
+    filter: grayscale(0.3) contrast(1.1);
+  }
+
+  /* ===== POR QUE NOS ESCOLHER ===== */
+  .why-us-section {
+    padding: var(--section-padding) 0;
+    background: linear-gradient(180deg, transparent 0%, rgba(227, 6, 19, 0.04) 50%, transparent 100%);
+  }
+
+  .why-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .why-card {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 36px 32px;
+    transition: all 0.4s ease;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .why-card:hover {
+    border-color: rgba(255, 215, 0, 0.2);
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+  }
+
+  .why-icon-wrap {
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+    background: rgba(255, 215, 0, 0.1);
+    border: 1px solid rgba(255, 215, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: var(--color-primary);
+  }
+
+  .why-card h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: #fff;
+  }
+
+  .why-card p {
+    font-size: 15px;
+    color: var(--color-text-muted);
+    line-height: 1.7;
+  }
+
+  /* ===== FAQ ===== */
+  .faq-section {
+    padding: var(--section-padding) 0;
+  }
+
+  .faq-list {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .faq-item {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .faq-item:hover {
+    border-color: rgba(255, 215, 0, 0.15);
+  }
+
+  .faq-item[open] {
+    border-color: rgba(255, 215, 0, 0.25);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .faq-item summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 28px;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    gap: 16px;
+  }
+
+  .faq-item summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq-item summary h3 {
+    font-size: 17px;
+    color: #fff;
+    line-height: 1.4;
+    font-weight: 700;
+  }
+
+  .faq-toggle {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(255, 215, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary);
+    transition: transform 0.3s ease;
+  }
+
+  .faq-item[open] .faq-toggle {
+    transform: rotate(180deg);
+  }
+
+  .faq-answer {
+    padding: 0 28px 28px;
+  }
+
+  .faq-answer p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.8;
+  }
+
+  /* ===== CTA FINAL ===== */
+  .final-cta-section {
+    padding: var(--section-padding) 0;
+  }
+
+  .cta-box {
+    position: relative;
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+
+  .cta-glow {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-accent) 50%, var(--color-secondary) 100%);
+    opacity: 1;
+  }
+
+  .cta-inner {
+    position: relative;
+    z-index: 2;
+    padding: 80px 60px;
+    text-align: center;
+  }
+
+  .cta-icon {
+    font-size: 48px;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .cta-inner h2 {
+    font-size: clamp(28px, 4.5vw, 42px);
+    color: #fff;
+    margin-bottom: 16px;
+  }
+
+  .cta-inner > p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 600px;
+    margin: 0 auto 40px;
+    line-height: 1.7;
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+  }
+
+  .cta-meta {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .cta-meta strong {
+    color: var(--color-primary);
+  }
+
+  /* ===== ANIMAÇÕES REVEAL ===== */
+  .reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ===== RESPONSIVO ===== */
+  @media (max-width: 1024px) {
+    .hero-content {
+      grid-template-columns: 1fr;
+      gap: 40px;
+      text-align: center;
+    }
+
+    .hero-image-wrap {
+      order: -1;
+    }
+
+    .hero-img {
+      max-width: 350px;
+    }
+
+    .hero-ctas {
+      justify-content: center;
+    }
+
+    .hero-stats {
+      justify-content: center;
+    }
+
+    .hero-detail {
+      border-left: none;
+      padding-left: 0;
+      text-align: center;
+    }
+
+    .services-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .why-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .loc-hero {
+      padding: 120px 0 60px;
+      min-height: auto;
+    }
+
+    .hero-text h1 {
+      font-size: 28px;
+    }
+
+    .badge {
+      font-size: 12px;
+      padding: 6px 16px;
+    }
+
+    .hero-stats {
+      gap: 20px;
+    }
+
+    .stat-number {
+      font-size: 32px;
+    }
+
+    .hero-ctas {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .btn-primary, .btn-secondary {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .btn-primary.large, .btn-secondary.large {
+      padding: 16px 24px;
+      font-size: 16px;
+    }
+
+    .response-table {
+      font-size: 13px;
+    }
+
+    .response-table th,
+    .response-table td {
+      padding: 14px 16px;
+    }
+
+    .cta-inner {
+      padding: 48px 24px;
+    }
+
+    .coverage-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .hero-stats {
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .stat-divider {
+      display: none;
+    }
+
+    .stat {
+      flex: 1;
+      min-width: 80px;
+    }
+  }
+</style>
+
+<script>
+  // Intersection Observer para animações reveal
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.reveal').forEach((el) => {
+    observer.observe(el);
+  });
+</script>
